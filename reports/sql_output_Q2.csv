@@ -1,0 +1,11 @@
+product_id,product_name,category,total_sales,units,sales_rank
+P1009,Laptop Pro 16,Technology,78479572.17,922,1
+P1008,Laptop Air 14,Technology,50441484.37,1014,2
+P1001,Smartphone X1,Technology,18307648.37,1056,3
+P1015,Standing Desk,Furniture,11140101.84,756,4
+P1010,Monitor 24in,Technology,10260133.21,929,5
+P1002,Smartphone Lite,Technology,8336304.97,912,6
+P1013,Gaming Chair,Furniture,7410258.17,790,7
+P1011,Ergo Chair,Furniture,6955438.71,884,8
+P1014,Office Desk,Furniture,6069405.94,829,9
+P1030,Microwave Oven,Home & Kitchen,5102931.13,541,10

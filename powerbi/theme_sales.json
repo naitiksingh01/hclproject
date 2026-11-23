@@ -1,0 +1,3 @@
+{"name":"SalesPerf","dataColors":["#2F6FED","#12A594","#F5A524","#E5484D","#8E4EC6","#5B6B7F"],
+ "background":"#FFFFFF","foreground":"#1C2430","tableAccent":"#2F6FED",
+ "textClasses":{"title":{"fontFace":"Segoe UI Semibold","fontSize":14},"label":{"fontFace":"Segoe UI","fontSize":11}}}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sales Performance Dashboard</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1c2430;--mute:#6b7685;--line:#e3e6eb;--c1:#2f6fed;--c2:#12a594;--c3:#f5a524;--c4:#e5484d;--c5:#8e4ec6;--c6:#5b6b7f}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b212b;--ink:#e8ecf2;--mute:#93a0b2;--line:#2a3340}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 system-ui,Segoe UI,Roboto,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 20px;background:var(--card);border-bottom:1px solid var(--line)}
+h1{font-size:18px;margin:0}small{color:var(--mute)}
+.slicers{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.sl{display:flex;gap:6px;align-items:center}.sl b{font-size:12px;color:var(--mute);font-weight:600}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:4px 11px;cursor:pointer;font-size:12.5px}
+.chip.on{background:var(--c1);border-color:var(--c1);color:#fff}
+button.reset{margin-left:6px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:6px;padding:5px 10px;cursor:pointer}
+main{padding:16px 20px;display:grid;gap:14px;grid-template-columns:repeat(12,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.kpi{grid-column:span 2}.kpi .v{font-size:24px;font-weight:700;margin-top:4px}.kpi .l{color:var(--mute);font-size:12px}
+.w6{grid-column:span 6}.w4{grid-column:span 4}.w8{grid-column:span 8}.w3{grid-column:span 3}
+h2{font-size:13.5px;margin:0 0 8px}h2 span{color:var(--mute);font-weight:400;font-size:12px}
+svg{width:100%;height:auto;display:block}text{fill:var(--mute);font-size:11px}
+.bar{cursor:pointer}.bar:hover{opacity:.8}
+.crumb{cursor:pointer;color:var(--c1);font-size:12px}
+@media(max-width:900px){.kpi{grid-column:span 4}.w6,.w4,.w8,.w3{grid-column:span 12}}
+</style></head><body>
+<header>
+ <div><h1>Sales Performance Dashboard</h1><small>Retail &amp; e-commerce · Jan 2023 – Dec 2024 · synthetic dataset · Naitik Singh Bhadoriya</small></div>
+ <div class="slicers" id="slicers"></div>
+</header>
+<main>
+ <div class="card kpi"><div class="l">Total Sales</div><div class="v" id="k_sales"></div></div>
+ <div class="card kpi"><div class="l">Total Profit</div><div class="v" id="k_profit"></div></div>
+ <div class="card kpi"><div class="l">Profit Margin</div><div class="v" id="k_margin"></div></div>
+ <div class="card kpi"><div class="l">Orders</div><div class="v" id="k_orders"></div></div>
+ <div class="card kpi"><div class="l">Avg Order Value</div><div class="v" id="k_aov"></div></div>
+ <div class="card kpi"><div class="l">Unique Customers</div><div class="v" id="k_cust"></div></div>
+ <div class="card w8"><h2>Monthly sales trend <span>(₹ lakh)</span></h2><div id="c_trend"></div></div>
+ <div class="card w4"><h2>Sales by region <span>click to filter</span></h2><div id="c_region"></div></div>
+ <div class="card w4"><h2 id="drill_h">Sales by category <span>click a bar to drill down</span></h2><div id="c_cat"></div></div>
+ <div class="card w4"><h2>Top 10 products <span>(₹ lakh)</span></h2><div id="c_prod"></div></div>
+ <div class="card w4"><h2>Sales by payment mode &amp; segment</h2><div id="c_pay"></div></div>
+</main>
+<script>
+const D=/*__DATA__*/null;
+const C=D.cols,R=D.rows,dic=D.dic,ix=Object.fromEntries(C.map((c,i)=>[c,i]));
+const S=C.length,P=S+1,Q=S+2,O=S+3,CU=S+4,UK=S+5;
+const state={year:null,region:null,category:null,drill:null};
+const fmtL=v=>'₹'+(v/1e5).toLocaleString('en-IN',{maximumFractionDigits:1})+' L';
+const fmtC=v=>v>=1e7?'₹'+(v/1e7).toFixed(2)+' Cr':fmtL(v);
+const pal=['--c1','--c2','--c3','--c4','--c5','--c6'].map(n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim());
+function sel(){return R.filter(r=>(state.year==null||dic.ym[r[ix.ym]].slice(0,4)==state.year)&&(state.region==null||dic.region[r[ix.region]]==state.region)&&(state.category==null||dic.category[r[ix.category]]==state.category));}
+function group(rows,keyFn){const m=new Map();rows.forEach(r=>{const k=keyFn(r);m.set(k,(m.get(k)||0)+r[S]);});return m;}
+function bars(el,entries,{onClick,active,color=pal[0],w=420,lab=150}={}){
+ const h=entries.length*26+8,max=Math.max(1,...entries.map(e=>e[1]));let s=`<svg viewBox="0 0 ${w} ${h}">`;
+ entries.forEach((e,i)=>{const y=i*26+4,bw=(w-lab-70)*e[1]/max;
+  s+=`<g class="bar" data-k="${e[0]}" opacity="${active&&active!==e[0]?0.35:1}"><text x="${lab-6}" y="${y+14}" text-anchor="end">${e[0].length>22?e[0].slice(0,21)+'…':e[0]}</text><rect x="${lab}" y="${y+2}" width="${Math.max(2,bw)}" height="16" rx="3" fill="${color}"/><text x="${lab+bw+5}" y="${y+14}">${fmtL(e[1])}</text></g>`});
+ el.innerHTML=s+'</svg>';
+ if(onClick)el.querySelectorAll('.bar').forEach(g=>g.onclick=()=>onClick(g.dataset.k));}
+function render(){
+ const rows=sel();
+ const sales=rows.reduce((a,r)=>a+r[S],0),profit=rows.reduce((a,r)=>a+r[P],0);
+ const orders=new Set(rows.map(r=>r[O])).size,cust=new Set(rows.filter(r=>!r[UK]).map(r=>r[CU])).size;
+ k_sales.textContent=fmtC(sales);k_profit.textContent=fmtC(profit);k_margin.textContent=(sales?100*profit/sales:0).toFixed(1)+'%';
+ k_orders.textContent=orders.toLocaleString('en-IN');k_aov.textContent='₹'+Math.round(orders?sales/orders:0).toLocaleString('en-IN');k_cust.textContent=cust.toLocaleString('en-IN');
+ // trend (ignores year slicer so both years visible? no - respects all filters)
+ const tm=group(rows,r=>dic.ym[r[ix.ym]]);const keys=[...tm.keys()].sort();const vals=keys.map(k=>tm.get(k)/1e5);
+ const W=620,H=210,pl=44,pb=24,mx=Math.max(1,...vals)*1.1;const xs=i=>pl+(W-pl-10)*i/Math.max(1,keys.length-1),ys=v=>H-pb-(H-pb-10)*v/mx;
+ let t=`<svg viewBox="0 0 ${W} ${H}">`;
+ for(let g=0;g<=4;g++){const v=mx*g/4;t+=`<line x1="${pl}" x2="${W-10}" y1="${ys(v)}" y2="${ys(v)}" stroke="var(--line)"/><text x="${pl-6}" y="${ys(v)+4}" text-anchor="end">${Math.round(v)}</text>`}
+ t+=`<path d="${vals.map((v,i)=>(i?'L':'M')+xs(i)+','+ys(v)).join(' ')}" fill="none" stroke="${pal[0]}" stroke-width="2.4"/>`;
+ keys.forEach((k,i)=>{t+=`<circle cx="${xs(i)}" cy="${ys(vals[i])}" r="3" fill="${pal[0]}"><title>${k}: ${fmtL(vals[i]*1e5)}</title></circle>`;if(i%3==0||keys.length<8)t+=`<text x="${xs(i)}" y="${H-6}" text-anchor="middle">${k.slice(2)}</text>`});
+ c_trend.innerHTML=t+'</svg>';
+ // region
+ const rg=[...group(rows,r=>dic.region[r[ix.region]])].sort((a,b)=>b[1]-a[1]);
+ bars(c_region,rg,{active:state.region,onClick:k=>{state.region=state.region==k?null:k;render()},color:pal[1],lab:70});
+ // category / drill-down
+ if(state.drill){drill_h.innerHTML=`<span class="crumb" id="back">‹ All categories</span> / ${state.drill} <span>sub-categories</span>`;
+   const sc=[...group(rows.filter(r=>dic.category[r[ix.category]]==state.drill),r=>dic.sub_category[r[ix.sub_category]])].sort((a,b)=>b[1]-a[1]);
+   bars(c_cat,sc,{color:pal[2],lab:110});document.getElementById('back').onclick=()=>{state.drill=null;render()};
+ }else{drill_h.innerHTML='Sales by category <span>click bar = filter · double-click = drill down</span>';
+   const ct=[...group(rows,r=>dic.category[r[ix.category]])].sort((a,b)=>b[1]-a[1]);
+   bars(c_cat,ct,{active:state.category,onClick:k=>{state.category=state.category==k?null:k;render()},color:pal[4],lab:110});
+   c_cat.querySelectorAll('.bar').forEach(g=>g.ondblclick=()=>{state.drill=g.dataset.k;render()});}
+ // top products
+ const tp=[...group(rows,r=>dic.product_name[r[ix.product_name]])].sort((a,b)=>b[1]-a[1]).slice(0,10);
+ bars(c_prod,tp,{color:pal[0],lab:110});
+ // payment + segment
+ const pm=[...group(rows,r=>dic.payment_mode[r[ix.payment_mode]])].sort((a,b)=>b[1]-a[1]);
+ const sg=[...group(rows,r=>dic.segment[r[ix.segment]])].sort((a,b)=>b[1]-a[1]);
+ bars(c_pay,pm.concat(sg.map(e=>['Seg: '+e[0],e[1]])),{color:pal[3],lab:100});
+ document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('on',state[c.dataset.s]==c.dataset.v||(c.dataset.v===''&&state[c.dataset.s]==null)));
+}
+// slicers
+const years=['2023','2024'];
+slicers.innerHTML=`<div class="sl"><b>Year</b><span class="chip" data-s="year" data-v="">All</span>${years.map(y=>`<span class="chip" data-s="year" data-v="${y}">${y}</span>`).join('')}</div>
+<div class="sl"><b>Region</b><span class="chip" data-s="region" data-v="">All</span>${dic.region.map(y=>`<span class="chip" data-s="region" data-v="${y}">${y}</span>`).join('')}</div>
+<div class="sl"><b>Category</b><span class="chip" data-s="category" data-v="">All</span>${dic.category.map(y=>`<span class="chip" data-s="category" data-v="${y}">${y}</span>`).join('')}</div><button class="reset" id="rs">Reset</button>`;
+slicers.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{state[c.dataset.s]=c.dataset.v||null;state.drill=null;render()});
+rs.onclick=()=>{state.year=state.region=state.category=state.drill=null;render()};
+render();
+</script></body></html>

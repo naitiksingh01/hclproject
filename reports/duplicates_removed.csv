@@ -1,0 +1,277 @@
+order_id,order_date,customer_id,customer_name,state,product_id,product_name,category,sub_category,quantity,unit_price,discount,sales,profit,payment_mode,ship_mode,region,segment,ship_date,source_row,reason
+ORD-2024-101638,2024-01-06,C10910,Kavya Khan,Madhya Pradesh,P1024,Gel Pen Box,Office Supplies,Art & Stationery,1,173.85,0.0,173.85,55.13,UPI,Express,Central,Consumer,2024-01-08,364,EXACT_DUPLICATE
+ORD-2023-106520,2023-11-09,C11196,Neha Gupta,Goa,P1004,Wireless Mouse,Technology,Accessories,2,646.9,,905.66,-64.93,Debit Card,Standard,West,Consumer,2023-11-10,598,EXACT_DUPLICATE
+ORD-2024-108611,2024-02-04,C10909,Aditya Patel,Uttar Pradesh,P1024,Gel Pen Box,Office Supplies,Art & Stationery,1,181.62,0.0,181.62,57.35,Credit Card,Express,North,Consumer,2024-02-06,677,EXACT_DUPLICATE
+ORD-2024-102015,2024-09-12,C11108,Arjun Chauhan,Maharashtra,P1019,A4 Paper Ream,Office Supplies,Paper,2,340.63,0.0,681.26,195.69,UPI,Same Day,West,Consumer,2024-09-15,781,EXACT_DUPLICATE
+ORD-2024-100609,2024-10-07,C10890,Aarav Reddy,Tamil Nadu,P1004,Wireless Mouse,Technology,Accessories,1,638.89,0.0,638.89,90.37,Credit Card,Standard,South,Consumer,2024-10-11,919,EXACT_DUPLICATE
+ORD-2024-103799,2024-05-27,C10681,Rohan Gupta,Uttar Pradesh,P1014,Office Desk,Furniture,Tables,1,7957.46,0.0,7957.46,1186.7,UPI,Standard,North,Consumer,2024-05-31,1455,EXACT_DUPLICATE
+ORD-2023-105334,2023-11-08,C10455,Sneha Singh,Madhya Pradesh,P1016,Coffee Table,Furniture,Tables,1,4055.27,0.2,3244.22,28.15,Debit Card,Standard,Central,Consumer,2023-11-09,1474,EXACT_DUPLICATE
+ORD-2024-105007,2024-11-22,C10433,Vikram Bhadoriya,Rajasthan,P1040,Yoga Mat,Sports,Equipment,2,760.9,0.0,1266.38,355.66,UPI,Express, West ,Consumer,2024-11-29,1528,EXACT_DUPLICATE
+ORD-2023-107180,2023-03-27,C10743,Ananya Sharma,Delhi,P1006,USB-C Hub,Technology,Accessories,2,1326.98,0.05,2521.26,283.94,Debit Card,Standard,North,Consumer,2023-03-30,2115,EXACT_DUPLICATE
+ORD-2023-105150,2023-09-25,C10853,Sakshi Yadav,Telangana,P1001,Smartphone X1,Technology,Phones,2,19102.85,0.0,38205.7,4222.83,UPI,Express,South,Consumer,2023-10-01,2124,EXACT_DUPLICATE
+ORD-2024-103148,2024-08-20,C11202,Rohan Bhadoriya,Telangana,P1002,Smartphone Lite,Technology,Phones,1,9861.23,0.3,6902.86,-621.9,Credit Card,Standard,South,Consumer,2024-08-21,2272,EXACT_DUPLICATE
+ORD-2024-101813,2024-04-02,C10674,Priya Joshi,Goa,P1038,Winter Jacket,Fashion,Apparel,1,3426.37,0.2,2741.1,763.67,Credit Card,Standard,West,Corporate,2024-04-05,2273,EXACT_DUPLICATE
+ORD-2024-101480,2024-09-12,C11297,Kavya Singh,Delhi,P1036,Cotton T-Shirt,Fashion,Apparel,1,613.24,0.0,613.24,207.95,Credit Card,Standard,North,Consumer,2024-09-19,2348,EXACT_DUPLICATE
+ORD-2023-106933,2023-12-29,C10505,Ishaan Khan,Assam,P1004,Wireless Mouse,Technology,Accessories,1,666.31,0.0,666.31,64.0,UPI,Standard,East,Consumer,2023-12-31,2607,EXACT_DUPLICATE
+ORD-2023-100996,2023-07-28,C10486,Arjun Das,Delhi,P1016,Coffee Table,Furniture,Tables,2,3994.06,0.1,7189.31,933.11,Debit Card,Standard,North,Corporate,2023-07-30,2658,EXACT_DUPLICATE
+ORD-2023-108897,2023-07-28,C10369,Priya Yadav,Chhattisgarh,P1027,Air Fryer,Home & Kitchen,Appliances,4,6168.96,0.0,24675.84,5530.69,Debit Card,Express,Central,Consumer,2023-08-03,2799,EXACT_DUPLICATE
+ORD-2023-100404,2023-02-22,C10950,Meera Das,Delhi,P1016,Coffee Table,Furniture,Tables,3,3813.48,0.2,9152.35,867.41,Credit Card,Standard, North ,Consumer,2023-02-24,2801,EXACT_DUPLICATE
+ORD-2023-106671,2023-05-31,C10384,Aditya Reddy,Haryana,P1020,Sticky Notes,Office Supplies,Paper,2,96.4,0.2,154.24,21.39,UPI,Same Day,North,Corporate,2023-06-03,3247,EXACT_DUPLICATE
+ORD-2023-105899,2023-11-11,C10502,Aditya Yadav,Punjab,P1018,File Cabinet,Furniture,Storage,1,3844.39,0.0,3844.39,493.63,UPI,Express,North,Corporate,2023-11-18,3384,EXACT_DUPLICATE
+ORD-2024-100869,2024-10-18,C11207,Rohan Das,Haryana,P1006,USB-C Hub,Technology,Accessories,2,1372.11,0.0,2744.22,355.36,UPI,Standard,North,Home Office,2024-10-23,3405,EXACT_DUPLICATE
+ORD-2024-103545,2024-07-05,C10746,Aarav Patel,Gujarat,P1031,Non-stick Pan,Home & Kitchen,Cookware,2,1163.81,0.1,2094.86,241.31,UPI,Express,West,Consumer,2024-07-07,3409,EXACT_DUPLICATE
+ORD-2024-101204,2024-10-28,C11294,Sakshi Reddy,Gujarat,P1011,Ergo Chair,Furniture,Chairs,1,8448.52,0.0,8448.52,1551.9,UPI,Express,West,Corporate,2024-11-01,3466,EXACT_DUPLICATE
+ORD-2024-100381,"Feb 19, 2024",C10840,Amit Sharma,Goa,P1019,A4 Paper Ream,Office Supplies,Paper,1,340.43,0.0,340.43,99.1,Credit Card,Standard,West,Home Office,2024-02-22,3663,EXACT_DUPLICATE
+ORD-2023-106762,2023-05-27,C10863,Amit Joshi,Telangana,P1039,Cricket Bat,Sports,Equipment,1,2719.14,0.0,2719.14,648.34,UPI,Same Day,South,Corporate,2023-05-30,3874,EXACT_DUPLICATE
+ORD-2024-104494,2024-10-19,C11070,Priya Yadav,Kerala,P1002,Smartphone Lite,Technology,Phones,1,9684.26,0.15,8231.62,283.26,Credit Card,Express,SOUTH,Consumer,2024-10-21,3940,EXACT_DUPLICATE
+ORD-2024-101754,2024-01-12,C10628,Diya Joshi,Bihar,P1005,Mech Keyboard,Technology,Accessories,2,2364.79,0.15,4020.14,137.26,Credit Card,Standard,East,Consumer,2024-01-14,4075,EXACT_DUPLICATE
+ORD-2023-104057,2023-02-11,C11340,Aditya Verma,Haryana,P1030,Microwave Oven,Home & Kitchen,Appliances,1,9702.38,0.0,9702.38,2071.64,Debit Card,Standard,North,Consumer,2023-02-15,4114,EXACT_DUPLICATE
+ORD-2024-108766,2024-10-23,C11168,Arjun Bhadoriya,Rajasthan,P1035,Sandals,Fashion,Footwear,3,940.95,0.15,2399.42,609.13,Debit Card,Standard,West,Consumer,2024-10-27,4160,EXACT_DUPLICATE
+ORD-2024-105394,2024-10-08,C11476,Amit Nair,Delhi,P1021,Notebook Pack,Office Supplies,Paper,4,237.04,0.0,948.16,262.91,UPI,Express,North,Consumer,2024-10-10,4207,EXACT_DUPLICATE
+ORD-2024-108365,2024-12-05,C10589,Ishaan Sharma,Bihar,P1035,Sandals,Fashion,Footwear,1,900.54,0.0,900.54,317.76,Debit Card,Same Day,East,Home Office,2024-12-09,4353,EXACT_DUPLICATE
+ORD-2023-102065,2023-12-15,C10986,Rahul Reddy,West Bengal,P1013,Gaming Chair,Furniture,Chairs,4,9980.82,0.1,35930.95,4837.67,Net Banking,Express,East,Corporate,2023-12-19,4430,EXACT_DUPLICATE
+ORD-2024-102249,2024-06-23,C10887,Sneha Verma,Kerala,P1007,Bluetooth Speaker,Technology,Accessories,4,2206.89,0.0,8827.56,1208.53,UPI,Standard,South,Corporate,2024-06-25,4520,EXACT_DUPLICATE
+ORD-2023-108006,2023-01-10,C11027,Priya Reddy,Goa,P1018,File Cabinet,Furniture,Storage,1,3680.42,0.2,2944.34,71.57,COD,Standard,West,Consumer,2023-01-15,4555,EXACT_DUPLICATE
+ORD-2023-104149,2023-04-24,C11571,Arjun Joshi,Punjab,P1014,Office Desk,Furniture,Tables,3,7230.97,0.0,21692.91,3280.9,UPI,Standard,North,Consumer,2023-04-27,4764,EXACT_DUPLICATE
+ORD-2024-102344,2024-04-03,C10504,Priya Das,Tamil Nadu,P1007,Bluetooth Speaker,Technology,Accessories,2,2189.68,0.05,4160.39,320.67,Net Banking,Express,SOUTH,Consumer,2024-04-07,4856,EXACT_DUPLICATE
+ORD-2023-103544,2023-02-12,C10790,Ishaan Gupta,Punjab,P1028,Mixer Grinder,Home & Kitchen,Appliances,4,3665.27,0.0,14661.08,2933.03,UPI,Same Day,North,Consumer,2023-02-16,4953,EXACT_DUPLICATE
+ORD-2024-105414,2024-12-16,C11518,Vikram Singh,Assam,P1009,Laptop Pro 16,Technology,Computers,3,89122.89,0.1,240631.8,11377.17,UPI,Standard,East,Consumer,2024-12-21,5091,EXACT_DUPLICATE
+ORD-2023-102939,2023-08-08,C11250,Rahul Verma,Karnataka,P1027,Air Fryer,Home & Kitchen,Appliances,2,6270.53,0.2,10032.85,1291.74,Credit Card,Express,South,Consumer,2023-08-15,5134,EXACT_DUPLICATE
+ORD-2023-103107,03/02/2023,C11323,Kabir Khan,Kerala,P1027,Air Fryer,Home & Kitchen,Appliances,1,6364.78,0.3,4455.35,204.16,UPI,Standard,South,Consumer,2023-02-05,5158,EXACT_DUPLICATE
+ORD-2023-101601,2023-10-14,C10287,Aarav Reddy,Maharashtra,P1016,Coffee Table,Furniture,Tables,1,3968.12,0.0,3968.12,553.95,Credit Card,Standard,West,Consumer,2023-10-18,5204,EXACT_DUPLICATE
+ORD-2024-103864,2024-12-16,C10911,Kavya Yadav,Madhya Pradesh,P1020,Sticky Notes,Office Supplies,Paper,2,93.78,0.05,178.18,45.45,COD,Express,Central,Consumer,2024-12-18,5239,EXACT_DUPLICATE
+ORD-2024-107974,2024-02-20,C10477,Sneha Mehta,Kerala,P1012,Task Chair,Furniture,Chairs,1,4510.37,0.15,3833.81,239.95,Credit Card,Express,South,Consumer,2024-02-26,5318,EXACT_DUPLICATE
+ORD-2024-101652,2024-10-11,C10679,Aditya Reddy,Haryana,P1003,Phone Case Pro,Technology,Phones,2,443.41,0.15,753.8,3.01,UPI,Express,North,Home Office,2024-10-16,5423,EXACT_DUPLICATE
+ORD-2024-102407,2024-09-17,C10957,Kavya Das,Telangana,P1040,Yoga Mat,Sports,Equipment,4,805.87,0.15,2739.96,471.12,Debit Card,Standard,South,Consumer,2024-09-21,5641,EXACT_DUPLICATE
+ORD-2024-100014,2024-04-26,C11172,Kabir Gupta,Karnataka,P1009,Laptop Pro 16,Technology,Computers,2,89826.16,0.0,179652.32,29053.35,UPI,Express,South,Corporate,2024-04-27,5644,EXACT_DUPLICATE
+ORD-2024-100777,2024-10-23,C10005,Meera Chauhan,Haryana,P1005,Mech Keyboard,Technology,Accessories,4,2375.44,0.0,9501.76,1495.53,UPI,Standard,North,Consumer,2024-10-25,5684,EXACT_DUPLICATE
+ORD-2024-100183,2024-10-18,C10953,Ishaan Singh,Karnataka,P1041,Dumbbell Set,Sports,Equipment,3,2993.4,0.0,8980.2,2260.46,Credit Card,Express,South,Home Office,2024-10-23,5891,EXACT_DUPLICATE
+ORD-2023-101371,2023-10-24,C10128,Rahul Verma,Rajasthan,P1025,Marker Set,Office Supplies,Art & Stationery,4,270.64,0.0,1082.56,295.78,Credit Card,Standard,West,Corporate,2023-10-26,5987,EXACT_DUPLICATE
+ORD-2024-104094,27/02/2024,C10616,Sakshi Khan,Madhya Pradesh,P1033,Running Shoes,Fashion,Footwear,2,3078.65,0.1,5541.57,1528.57,Net Banking,Express,Central,Consumer,2024-03-01,6025,EXACT_DUPLICATE
+ORD-2024-100233,2024-05-16,C10176,Ishaan Nair,Maharashtra,P1013,Gaming Chair,Furniture,Chairs,1,9992.83,0.0,9992.83,1142.72,UPI,Express,West,Corporate,2024-05-20,6091,EXACT_DUPLICATE
+ORD-2024-103463,2024-08-27,C10686,Saanvi Nair,Haryana,P1006,USB-C Hub,Technology,Accessories,1,1362.61,0.0,1362.61,179.18,Credit Card,Standard,North,Consumer,2024-08-30,6165,EXACT_DUPLICATE
+ORD-2024-104031,2024-12-12,C10485,Ishaan Nair,Haryana,P1018,File Cabinet,Furniture,Storage,3,3724.59,0.3,7821.64,-450.96,Credit Card,Standard,North,Consumer,2024-12-15,6197,EXACT_DUPLICATE
+ORD-2023-107782,2023-07-09,C11424,Ishaan Reddy,Maharashtra,P1040,Yoga Mat,Sports,Equipment,1,849.14,0.3,594.4,53.46,UPI,Express,West,Home Office,2023-07-10,6219,EXACT_DUPLICATE
+ORD-2023-107248,2023-02-05,C11161,Kavya Mehta,Telangana,P1009,Laptop Pro 16,Technology,Computers,3,94327.32,0.0,282981.96,30121.87,COD,Express,SOUTH,Home Office,2023-02-07,6245,EXACT_DUPLICATE
+ORD-2023-100669,2023-01-24,C10725,Ishaan Sharma,Punjab,P1005,Mech Keyboard,Technology,Accessories,3,2286.31,0.0,6858.93,962.21,Credit Card,Express,North,Consumer,2023-01-28,6300,EXACT_DUPLICATE
+ORD-2023-104052,2023-05-20,C10170,Neha Patel,Delhi,P1042,Football,Sports,Equipment,3,957.19,0.05,2727.99,637.89,COD,Standard,NORTH,Home Office,2023-05-26,6465,EXACT_DUPLICATE
+ORD-2024-105125,2024-12-31,C11231,Arjun Joshi,Chhattisgarh,P1039,Cricket Bat,Sports,Equipment,1,2753.61,0.0,2753.61,615.49,UPI,Standard,Central,Home Office,2025-01-05,6475,EXACT_DUPLICATE
+ORD-2023-108341,2023-10-13,C11306,Ananya Joshi,Karnataka,P1004,Wireless Mouse,Technology,Accessories,1,663.95,0.1,597.56,80.1,Credit Card,Express,South,Home Office,2023-10-17,6542,EXACT_DUPLICATE
+ORD-2024-102416,2024-08-09,C11052,Pooja Patel,Delhi,P1011,Ergo Chair,Furniture,Chairs,2,7988.56,0.0,15977.12,2717.05,Net Banking,Standard,North,Corporate,2024-08-11,6585,EXACT_DUPLICATE
+ORD-2023-101123,2023-04-21,C11184,Ananya Singh,Goa,P1030,Microwave Oven,Home & Kitchen,Appliances,1,10539.0,0.0,10539.0,1680.61,Net Banking,Standard,West,Consumer,2023-04-25,6750,EXACT_DUPLICATE
+ORD-2023-103137,2023-10-09,C11000,Pooja Sharma,Uttar Pradesh,P1033,Running Shoes,Fashion,Footwear,1,3376.04,0.0,3376.04,1153.45,UPI,Express, North ,Consumer,2023-10-14,6761,EXACT_DUPLICATE
+ORD-2024-103763,2024-01-30,C11204,Arjun Sharma,Madhya Pradesh,P1009,Laptop Pro 16,Technology,Computers,1,91594.53,0.0,91594.53,12402.11,Debit Card,Standard,Central,Consumer,2024-02-02,6762,EXACT_DUPLICATE
+ORD-2024-105594,2024-05-12,C11342,Meera Das,Rajasthan,P1034,Formal Shoes,Fashion,Footwear,2,2846.73,0.0,5693.46,2058.72,Credit Card,Standard,West,Home Office,2024-05-15,6808,EXACT_DUPLICATE
+ORD-2024-106353,2024-12-27,C11370,Ananya Verma,Madhya Pradesh,P1020,Sticky Notes,Office Supplies,Paper,1,88.51,0.0,88.51,25.47,UPI,Express,Central,Consumer,2024-12-31,6812,EXACT_DUPLICATE
+ORD-2024-103686,2024-10-21,C11477,Ishaan Chauhan,Madhya Pradesh,P1041,Dumbbell Set,Sports,Equipment,2,3105.62,0.3,4347.87,235.04,Debit Card,Standard,Central,Consumer,2024-10-25,6837,EXACT_DUPLICATE
+ORD-2023-108188,2023-05-08,C11380,Aditya Nair,Uttar Pradesh,P1009,Laptop Pro 16,Technology,Computers,2,94723.31,0.0,189446.62,23057.16,Credit Card,Express,North,Consumer,2023-05-12,6875,EXACT_DUPLICATE
+ORD-2024-108945,2024-03-01,C10819,Ananya Patel,Karnataka,P1029,Electric Kettle,Home & Kitchen,Appliances,1,1464.78,0.0,1464.78,338.71,Net Banking,Express,South,Corporate,2024-03-03,7110,EXACT_DUPLICATE
+ORD-2024-104112,2024-10-14,C10750,Meera Gupta,Delhi,P1011,Ergo Chair,Furniture,Chairs,2,8836.48,0.1,15905.66,2053.59,UPI,Express,North,Consumer,2024-10-19,7134,EXACT_DUPLICATE
+ORD-2024-102066,2024-08-15,C10475,Vivaan Patel,Haryana,P1021,Notebook Pack,Office Supplies,Paper,3,256.85,0.0,770.55,254.14,UPI,Express,North,Corporate,2024-08-19,7151,EXACT_DUPLICATE
+ORD-2024-105354,2024-11-16,C10400,Aarav Patel,Chhattisgarh,P1017,Bookcase,Furniture,Storage,1,4965.26,0.0,4965.26,854.19,UPI,Express,Central,Corporate,2024-11-23,7253,EXACT_DUPLICATE
+ORD-2023-107337,2023-10-02,C10454,Rohan Verma,Gujarat,P1027,Air Fryer,Home & Kitchen,Appliances,1,6358.42,0.05,6040.5,1328.48,Debit Card,Standard,West,Consumer,2023-10-04,7258,EXACT_DUPLICATE
+ORD-2023-108554,2023-11-16,C10884,Vivaan Singh,Punjab,P1006,USB-C Hub,Technology,Accessories,1,1315.36,0.0,1315.36,146.76,Net Banking,Express,North,Home Office,2023-11-18,7287,EXACT_DUPLICATE
+ORD-2024-100262,2024-05-11,C10583,Aarav Reddy,Bihar,P1004,Wireless Mouse,Technology,Accessories,1,662.71,0.05,629.57,58.48,COD,Standard,East,Home Office,2024-05-17,7297,EXACT_DUPLICATE
+ORD-2024-100750,2024-08-16,C11131,Aarav Das,Delhi,P1017,Bookcase,Furniture,Storage,3,5603.34,0.0,16810.02,2639.49,Net Banking,Standard,North,Consumer,2024-08-18,7318,EXACT_DUPLICATE
+ORD-2023-106672,2023-08-26,C11367,Saanvi Singh,Tamil Nadu,P1015,Standing Desk,Furniture,Tables,1,14754.07,0.0,14754.07,3003.97,Debit Card,Standard,South,Corporate,2023-09-01,7354,EXACT_DUPLICATE
+ORD-2024-107422,2024-04-11,C11264,Vivaan Joshi,Haryana,P1028,Mixer Grinder,Home & Kitchen,Appliances,3,4101.63,0.0,12304.89,2990.77,COD,Standard,,Consumer,2024-04-15,7411,EXACT_DUPLICATE
+ORD-2023-106930,2023-06-04,C11281,Rahul Nair,Punjab,P1015,Standing Desk,Furniture,Tables,1,15759.27,0.1,14183.34,719.83,Credit Card,Same Day,North,Consumer,2023-06-08,7434,EXACT_DUPLICATE
+ORD-2023-101095,2023-08-27,C10277,Sakshi Das,Rajasthan,P1021,Notebook Pack,Office Supplies,Paper,2,256.21,0.1,461.18,96.15,Credit Card,Standard,West,Home Office,2023-09-01,7445,EXACT_DUPLICATE
+ORD-2023-101175,2023-11-06,C11425,Ananya Reddy,West Bengal,P1001,Smartphone X1,Technology,Phones,1,17443.43,0.0,17443.43,2318.26,UPI,Express,East,Corporate,2023-11-10,7513,EXACT_DUPLICATE
+ORD-2024-103474,2024-07-23,C10885,Kavya Reddy,Assam,P1002,Smartphone Lite,Technology,Phones,3,9051.12,0.0,27153.36,3721.9,UPI,Express,East,Corporate,2024-07-25,7651,EXACT_DUPLICATE
+ORD-2024-105374,2024-04-12,C10444,Aarav Patel,Haryana,P1008,Laptop Air 14,Technology,Computers,2,52317.9,0.1,94172.22,4298.35,COD,Express, North ,Consumer,2024-04-16,7657,EXACT_DUPLICATE
+ORD-2023-101529,2023-09-18,C11160,Vivaan Sharma,Maharashtra,P1006,USB-C Hub,Technology,Accessories,5,1390.19,0.0,6950.95,1060.21,Credit Card,Express,West,Home Office,2023-09-22,7672,EXACT_DUPLICATE
+ORD-2024-108172,2024-04-10,C10692,Rohan Gupta,Rajasthan,P1007,Bluetooth Speaker,Technology,Accessories,1,2146.06,0.0,2146.06,336.25,UPI,Express,West,Corporate,2024-04-13,8002,EXACT_DUPLICATE
+ORD-2023-100539,2023-12-11,C10355,Rahul Das,Rajasthan,P1015,Standing Desk,Furniture,Tables,1,15726.26,0.15,13367.32,1325.73,Credit Card,Express,West,Corporate,2023-12-12,8032,EXACT_DUPLICATE
+ORD-2024-103454,2024-10-02,C11356,Amit Das,Haryana,P1023,Box File,Office Supplies,Binders,2,217.9,0.15,370.43,79.71,COD,Standard,North,Corporate,2024-10-03,8054,EXACT_DUPLICATE
+ORD-2023-103203,2023-07-01,C10290,Vivaan Bhadoriya,Madhya Pradesh,P1001,Smartphone X1,Technology,Phones,3,18481.72,0.0,55445.16,5948.32,Debit Card,Express,Central,Consumer,2023-07-07,8113,EXACT_DUPLICATE
+ORD-2024-100600,2024-01-25,C10429,Rahul Bhadoriya,Gujarat,P1012,Task Chair,Furniture,Chairs,3,4357.98,0.15,11112.85,205.56,Net Banking,Standard,West,Consumer,2024-01-29,8134,EXACT_DUPLICATE
+ORD-2024-101242,2024-07-08,C11162,Priya Bhadoriya,Goa,P1025,Marker Set,Office Supplies,Art & Stationery,2,272.71,0.15,463.61,108.06,UPI,Express,West,Consumer,2024-07-12,8177,EXACT_DUPLICATE
+ORD-2023-100875,2023-02-08,C10788,Meera Khan,Punjab,P1022,Ring Binder,Office Supplies,Binders,1,147.66,0.0,147.66,47.17,Debit Card,Standard,North,Consumer,2023-02-12,8193,EXACT_DUPLICATE
+ORD-2024-101346,2024-07-09,C11216,Ananya Patel,Tamil Nadu,P1005,Mech Keyboard,technology,Accessories,2,2400.94,0.0,4801.88,629.85,COD,Standard,South,Consumer,2024-07-12,8248,EXACT_DUPLICATE
+ORD-2023-108649,2023-12-14,C11525,Vikram Singh,West Bengal,P1013,Gaming Chair,Furniture,Chairs,1,9388.28,0.0,9388.28,1171.74,Credit Card,Standard,East,Home Office,2023-12-16,8281,EXACT_DUPLICATE
+ORD-2023-105856,2023-07-10,C10424,Vikram Mehta,Chhattisgarh,P1007,Bluetooth Speaker,Technology,Accessories,1,2288.39,0.3,1601.87,-70.7,COD,Standard,Central,Corporate,2023-07-11,8347,EXACT_DUPLICATE
+ORD-2024-108299,05/03/2024,C11239,Vivaan Singh,West Bengal,P1007,Bluetooth Speaker,Technology,Accessories,1,2334.54,0.0,2334.54,312.11,COD,Standard,East,Corporate,2024-03-08,8348,EXACT_DUPLICATE
+ORD-2023-107044,2023-11-23,C11501,Amit Chauhan,Rajasthan,P1021,Notebook Pack,office supplies,Paper,2,247.78,0.0,495.56,134.77,UPI,Express,West,Consumer,2023-11-27,8369,EXACT_DUPLICATE
+ORD-2023-106611,2023-02-17,C11357,Meera Nair,Karnataka,P1003,Phone Case Pro,Technology,Phones,2,468.61,0.0,937.22,149.94,Debit Card,Standard,South,Consumer,2023-02-19,8457,EXACT_DUPLICATE
+ORD-2024-105638,2024-07-21,,Rahul Nair,Karnataka,P1001,Smartphone X1,Technology,Phones,2,18628.27,0.0,37256.54,3380.97,UPI,Express,South,Consumer,2024-07-25,8548,EXACT_DUPLICATE
+ORD-2024-105164,2024-05-03,C11092,Neha Patel,Rajasthan,P1027,Air Fryer,Home & Kitchen,Appliances,1,6273.18,0.15,5332.2,498.69,Credit Card,Standard,West,Consumer,2024-05-04,8660,EXACT_DUPLICATE
+ORD-2024-101737,2024-01-11,C10185,Kavya Mehta,Kerala,P1035,Sandals,Fashion,Footwear,2,953.64,0.0,1907.28,581.56,Credit Card,Standard,South,Corporate,2024-01-15,8684,EXACT_DUPLICATE
+ORD-2024-100382,2024-09-26,C11360,Neha Iyer,Chhattisgarh,P1019,A4 Paper Ream,Office Supplies,Paper,1,312.64,0.0,312.64,92.4,COD,Express,Central,Corporate,2024-10-01,8809,EXACT_DUPLICATE
+ORD-2023-100066,2023-08-08,C10432,Vikram Iyer,Kerala,P1008,Laptop Air 14,Technology,Computers,-1,51824.29,0.0,-51824.29,-8598.66,Debit Card,Express,South,Corporate,2023-08-13,8815,EXACT_DUPLICATE
+ORD-2023-108705,2023-12-30,C11049,Sneha Gupta,Rajasthan,P1038,Winter Jacket,Fashion,Apparel,2,3769.56,0.1,6785.21,1702.9,Net Banking,Standard,West,Home Office,2024-01-05,8826,EXACT_DUPLICATE
+ORD-2024-101004,2024-07-16,C10969,Sakshi Gupta,Kerala,P1015,Standing Desk,Furniture,Tables,2,16463.53,0.0,32927.06,6178.57,COD,Standard,South,Corporate,2024-07-19,8839,EXACT_DUPLICATE
+ORD-2024-106538,2024-09-26,C10083,Kavya Singh,Tamil Nadu,P1012,Task Chair,Furniture,Chairs,1,4527.38,0.0,5226.14,866.25,Credit Card,Standard,South,Consumer,2024-09-28,8861,EXACT_DUPLICATE
+ORD-2023-103088,2023-01-28,C11385,Rahul Sharma,Madhya Pradesh,P1025,Marker Set,Office Supplies,Art & Stationery,1,274.69,0.0,274.69,72.82,Net Banking,Standard,CENTRAL,Corporate,2023-01-30,8863,EXACT_DUPLICATE
+ORD-2024-102161,2024-11-26,C11392,Amit Verma,Delhi,P1013,Gaming Chair,Furniture,Chairs,1,9430.24,0.05,8958.73,1033.33,Debit Card,Standard,North,Home Office,2024-11-29,8885,EXACT_DUPLICATE
+ORD-2024-106534,2024-10-20,C10146,Sakshi Patel,Chhattisgarh,P1040,Yoga Mat,Sports,Equipment,1,858.77,0.0,858.77,182.03,Credit Card,Standard,Central,Consumer,2024-10-25,8933,EXACT_DUPLICATE
+ORD-2023-101887,2023-01-17,C10035,Sneha Singh,Madhya Pradesh,P1010,Monitor 24in,Technology,Computers,4,12087.65,0.0,48350.6,3993.99,Debit Card,Express,Central,Consumer,2023-01-24,8936,EXACT_DUPLICATE
+ORD-2024-105511,2024-02-04,C10645,Diya Bhadoriya,Chhattisgarh,P1033,Running Shoes,Fashion,Footwear,1,3306.66,0.2,2645.33,648.4,Net Banking,Express, Central ,Home Office,2024-02-06,9234,EXACT_DUPLICATE
+ORD-2024-103101,2024-02-27,C11347,Amit Reddy,Goa,P1004,Wireless Mouse,Technology,Accessories,4,685.86,0.0,2743.44,309.83,Net Banking,Standard,West,Corporate,2024-03-01,9349,EXACT_DUPLICATE
+ORD-2024-103180,2024-04-02,,Vikram Singh,Maharashtra,P1036,Cotton T-Shirt,Fashion,Apparel,2,633.99,0.0,1267.98,455.58,Debit Card,Standard,West,Consumer,2024-04-05,9466,EXACT_DUPLICATE
+ORD-2023-102358,2023-03-31,C10605,Neha Khan,Gujarat,P1031,Non-stick Pan,Home & Kitchen,Cookware,4,1093.33,0.05,4154.65,658.31,Debit Card,Same Day,West,Consumer,2023-04-05,9501,EXACT_DUPLICATE
+ORD-2024-101969,2024-12-17,C10206,Ishaan Verma,Bihar,P1002,Smartphone Lite,technology,Phones,3,10011.78,0.15,25530.04,1818.9,Debit Card,Standard,East,Consumer,2024-12-19,9647,EXACT_DUPLICATE
+ORD-2024-105611,2024-08-17,C10002,Saanvi Bhadoriya,Gujarat,P1036,Cotton T-Shirt,Fashion,Apparel,1,635.41,0.0,635.41,199.2,UPI,Express,West,Home Office,2024-08-24,9691,EXACT_DUPLICATE
+ORD-2024-103834,2024-08-15,C10550,Arjun Das,Punjab,P1040,Yoga Mat,Sports,Equipment,2,821.31,0.0,1642.62,348.4,UPI,Express,,Consumer,2024-08-20,9728,EXACT_DUPLICATE
+ORD-2023-103013,2023-03-01,C10894,Arjun Khan,Telangana,P1009,Laptop Pro 16,Technology,Computers,2,86554.92,0.15,147143.36,3524.65,UPI,Standard,South,Corporate,2023-03-06,9799,EXACT_DUPLICATE
+ORD-2024-108995,2024-05-17,C10285,Amit Nair,Gujarat,P1033,Running Shoes,Fashion,Footwear,1,3114.39,0.2,2491.51,509.13,UPI,Express,West,Consumer,2024-05-21,9802,EXACT_DUPLICATE
+ORD-2024-100855,2024-07-27,C10070,Sakshi Gupta,Kerala,P1022,Ring Binder,Office Supplies,Binders,1,134.58,0.0,134.58,38.92,COD,Standard,South,Consumer,2024-08-02,9925,EXACT_DUPLICATE
+ORD-2024-105152,2024-06-07,C10685,Pooja Reddy,Karnataka,P1011,Ergo Chair,Furniture,Chairs,2,8421.26,0.0,16842.52,3413.39,UPI,Standard,South,Consumer,2024-06-09,9958,EXACT_DUPLICATE
+ORD-2023-102695,2023-11-23,C11554,Amit Gupta,Uttar Pradesh,P1035,Sandals,Fashion,Footwear,4,917.48,0.0,3669.92,1217.61,UPI,Standard,North,Corporate,2023-11-27,9973,EXACT_DUPLICATE
+ORD-2023-100403,2023-05-14,C10932,Vikram Nair,Delhi,P1025,Marker Set,Office Supplies,Art & Stationery,3,277.5,0.0,832.5,225.1,Credit Card,Express,North,Corporate,2023-05-19,10015,EXACT_DUPLICATE
+ORD-2024-102315,2024-12-19,C11561,Arjun Mehta,Uttar Pradesh,P1008,Laptop Air 14,Technology,Computers,3,52261.62,0.2,125427.89,2673.87,Debit Card,Standard,North,Consumer,2024-12-21,10083,EXACT_DUPLICATE
+ORD-2024-107755,2024-03-03,C11566,Sneha Verma,Telangana,P1005,Mech Keyboard,Technology,Accessories,1,2586.47,0.0,2586.47,301.5,COD,Standard,South,Corporate,2024-03-07,10084,EXACT_DUPLICATE
+ORD-2024-107110,2024-05-24,C10227,Kabir Joshi,Tamil Nadu,P1017,Bookcase,Furniture,Storage,4,5216.01,0.0,20864.04,2813.16,COD,Standard,South,Consumer,2024-05-27,10104,EXACT_DUPLICATE
+ORD-2024-105321,2024-05-16,C11103,Aditya Bhadoriya,Assam,P1006,USB-C Hub,Technology,Accessories,2,1350.48,0.0,2700.96,324.4,COD,Standard,East,Corporate,2024-05-18,10120,EXACT_DUPLICATE
+ORD-2023-108439,2023-09-23,C11349,Aditya Verma,Punjab,P1028,Mixer Grinder,Home & Kitchen,Appliances,1,3795.53,,3795.53,752.06,UPI,Standard,North,Consumer,2023-09-26,10189,EXACT_DUPLICATE
+ORD-2024-108569,2024-08-19,C11303,Meera Gupta,Maharashtra,P1009,Laptop Pro 16,Technology,Computers,3,90222.98,0.0,270668.94,29763.45,UPI,Standard,West,Consumer,2024-08-23,10193,EXACT_DUPLICATE
+ORD-2024-106758,2024-11-16,C11558,Neha Mehta,Uttar Pradesh,P1015,Standing Desk,Furniture,Tables,2,14801.81,0.3,20722.53,49.51,COD,Standard,North,Corporate,2024-11-19,10243,EXACT_DUPLICATE
+ORD-2024-107317,2024-10-03,C11311,Aditya Yadav,Gujarat,P1018,File Cabinet,Furniture,Storage,1,3769.83,0.15,3204.36,209.86,UPI,Standard,West,Consumer,2024-10-05,10249,EXACT_DUPLICATE
+ORD-2023-105843,2023-02-13,C11154,Kavya Joshi,Karnataka,P1015,Standing Desk,Furniture,Tables,2,15868.63,0.1,28563.53,2730.75,Debit Card,Same Day,South,Consumer,2023-02-17,10337,EXACT_DUPLICATE
+ORD-2023-100807,2023-06-28,C11546,Priya Gupta,Haryana,P1038,Winter Jacket,Fashion,Apparel,1,3456.18,0.0,3456.18,1322.13,Debit Card,Express,North,Home Office,2023-07-04,10344,EXACT_DUPLICATE
+ORD-2024-100639,2024-03-10,C10035,Sneha Singh,Madhya Pradesh,P1004,Wireless Mouse,Technology,Accessories,1,697.41,0.15,592.8,3.54,Debit Card,Same Day,Central,Consumer,2024-03-12,10426,EXACT_DUPLICATE
+ORD-2024-107858,2024-03-24,C10563,Pooja Mehta,Odisha,P1023,Box File,Office Supplies,Binders,1,209.04,0.0,209.04,71.04,Net Banking,Express,East,Corporate,2024-03-28,10432,EXACT_DUPLICATE
+ORD-2024-104787,07/04/2024,C10994,Diya Yadav,Gujarat,P1011,Ergo Chair,Furniture,Chairs,5,8314.31,0.0,41571.55,7317.96,Credit Card,Standard,West,Corporate,2024-04-11,10499,EXACT_DUPLICATE
+ORD-2023-106662,2023-12-21,C11031,Aditya Iyer,West Bengal,P1038,Winter Jacket,Fashion,Apparel,2,3439.06,0.1,6190.31,1806.44,Debit Card,Express, EAST ,Home Office,2023-12-25,10533,EXACT_DUPLICATE
+ORD-2023-102119,2023-12-06,C10180,Vikram Yadav,Delhi,P1008,Laptop Air 14,Technology,Computers,2,54400.86,0.0,108801.72,17877.8,Credit Card,Express,North,Corporate,2023-12-10,10622,EXACT_DUPLICATE
+ORD-2024-106972,2024-04-28,,Neha Chauhan,Karnataka,P1022,Ring Binder,Office Supplies,Binders,1,134.75,0.0,134.75,40.9,UPI,Express,South,Consumer,2024-04-29,10635,EXACT_DUPLICATE
+ORD-2024-104892,2024-11-30,C10738,Arjun Reddy,Gujarat,P1022,Ring Binder,Office Supplies,Binders,1,142.67,0.0,142.67,46.58,UPI,Standard, West ,Consumer,2024-12-02,10698,EXACT_DUPLICATE
+ORD-2023-108006,2023-01-10,C11027,Priya Reddy,Goa,P1034,Formal Shoes,Fashion,Footwear,2,2861.97,0.0,5723.94,2089.03,Credit Card,Standard,West,Consumer,2023-01-13,10736,EXACT_DUPLICATE
+ORD-2024-107779,2024-10-17,C10306,Sneha Reddy,Goa,P1038,Winter Jacket,Fashion,Apparel,1,3860.52,0.0,3860.52,1345.28,Credit Card,Standard,,Corporate,2024-10-19,10765,EXACT_DUPLICATE
+ORD-2024-103940,2024-12-23,C10209,Ishaan Das,Tamil Nadu,P1002,Smartphone Lite,Technology,Phones,1,10011.84,0.0,10011.84,898.35,COD,Standard,South,Consumer,2024-12-27,10879,EXACT_DUPLICATE
+ORD-2024-106834,2024-07-02,C10848,Arjun Singh,Goa,P1007,Bluetooth Speaker,technology,Accessories,1,2332.69,0.0,2332.69,437.64,UPI,Standard,West,Consumer,2024-07-04,10889,EXACT_DUPLICATE
+ORD-2024-103269,2024-05-12,C11058,Sakshi Joshi,Delhi,P1001,Smartphone X1,Technology,Phones,4,18142.16,0.15,61683.34,6690.76,COD,Standard,North,Corporate,2024-05-13,10962,EXACT_DUPLICATE
+ORD-2024-107975,2024-09-28,C10367,Diya Iyer,Maharashtra,P1003,Phone Case Pro,Technology,Phones,2,480.67,0.0,961.34,151.26,Debit Card,Standard,West,Corporate,2024-10-05,10991,EXACT_DUPLICATE
+ORD-2024-104434,2024-12-31,C11511,Rohan Singh,Telangana,P1028,Mixer Grinder,Home & Kitchen,Appliances,5,4044.1,0.0,20220.5,4497.69,Credit Card,Express,South,Consumer,2025-01-04,11009,EXACT_DUPLICATE
+ORD-2023-104350,2023-01-04,C10151,Aarav Yadav,Telangana,P1010,Monitor 24in,technology,Computers,4,11673.84,0.0,46695.36,6400.27,Net Banking,Standard,SOUTH,Consumer,2023-01-09,11011,EXACT_DUPLICATE
+ORD-2024-106315,2024-09-18,C11243,Diya Sharma,Punjab,P1010,Monitor 24in,Technology,Computers,1,12045.7,0.1,10841.13,1216.29,UPI,Express,North,Consumer,2024-09-22,11012,EXACT_DUPLICATE
+ORD-2024-103263,2024-04-02,C11531,Rohan Verma,Odisha,P1006,USB-C Hub,Technology,Accessories,1,1378.22,0.0,1378.22,248.66,UPI,Express,East,Corporate,2024-04-07,11030,EXACT_DUPLICATE
+ORD-2023-101497,09/10/2023,C11509,Kabir Khan,Rajasthan,P1009,Laptop Pro 16,Technology,Computers,1,89070.98,0.0,89070.98,11440.78,UPI,Standard,West,Corporate,2023-10-16,11049,EXACT_DUPLICATE
+ORD-2023-100099,2023-02-15,C10938,Diya Yadav,Karnataka,P1001,Smartphone X1,Technology,Phones,4,18780.52,0.0,75122.08,9049.28,COD,Express,South,Corporate,2023-02-22,11143,EXACT_DUPLICATE
+ORD-2024-101794,12/10/2024,C11004,Sneha Mehta,Goa,P1029,Electric Kettle,Home & Kitchen,Appliances,1,1607.14,0.15,1366.07,186.56,UPI,Standard,West,Consumer,2024-10-13,11163,EXACT_DUPLICATE
+ORD-2024-102621,2024-08-24,C10400,Aarav Patel,Chhattisgarh,P1008,Laptop Air 14,Technology,Computers,2,51058.96,0.0,102117.92,13821.83,Debit Card,Standard,Central,Corporate,2024-08-26,11242,EXACT_DUPLICATE
+ORD-2024-107181,2024-07-18,C10079,Meera Khan,Madhya Pradesh,P1021,Notebook Pack,Office Supplies,Paper,1,234.23,0.1,210.81,61.85,UPI,Standard,Central,Consumer,2024-07-21,11276,EXACT_DUPLICATE
+ORD-2024-106758,2024-11-16,C11558,Neha Mehta,Uttar Pradesh,P1006,USB-C Hub,Technology,Accessories,2,1270.41,0.0,2540.82,358.26,Debit Card,Express,North,Corporate,2024-11-20,11278,EXACT_DUPLICATE
+ORD-2023-104100,"Feb 25, 2023",C11200,Aarav Joshi,Karnataka,P1005,Mech Keyboard,Technology,Accessories,2,2358.32,0.0,4716.64,523.48,Credit Card,Express,South,Consumer,2023-03-02,11290,EXACT_DUPLICATE
+ORD-2024-107242,2024-11-20,C10356,Priya Khan,Goa,P1020,Sticky Notes,Office Supplies,Paper,1,92.93,0.0,92.93,26.36,Credit Card,Same Day,West,Home Office,2024-11-22,11371,EXACT_DUPLICATE
+ORD-2024-104768,2024-01-19,C10594,Kabir Sharma,West Bengal,P1008,Laptop Air 14,Technology,Computers,1,50214.42,0.0,50214.42,6569.86,UPI,Standard,East,Consumer,2024-01-23,11381,EXACT_DUPLICATE
+ORD-2023-104869,2023-08-06,C11018,Kabir Sharma,Delhi,P1004,Wireless Mouse,Technology,Accessories,2,671.59,0.2,1074.54,4.51,UPI,Express, North ,Corporate,2023-08-13,11386,EXACT_DUPLICATE
+ORD-2024-101341,2024-01-16,C11098,Ishaan Bhadoriya,Tamil Nadu,P1008,Laptop Air 14,Technology,Computers,1,50200.6,0.0,50200.6,7408.73,Net Banking,Express,South,Corporate,2024-01-22,11407,EXACT_DUPLICATE
+ORD-2023-106147,2023-05-11,C11086,Sakshi Khan,Maharashtra,P1014,Office Desk,Furniture,Tables,1,7804.1,0.05,8583.16,1633.57,Credit Card,Standard,West,Corporate,2023-05-12,11464,EXACT_DUPLICATE
+ORD-2023-100101,2023-03-25,C11291,Ishaan Mehta,Bihar,P1004,Wireless Mouse,Technology,Accessories,3,697.63,0.05,1988.25,229.17,Debit Card,Standard,East,Consumer,2023-03-26,11478,EXACT_DUPLICATE
+ORD-2024-101678,2024-04-15,C10916,Kabir Verma,Gujarat,P1036,Cotton T-Shirt,Fashion,Apparel,2,624.01,0.0,1248.02,434.29,UPI,Express,West,Corporate,2024-04-19,11490,EXACT_DUPLICATE
+ORD-2023-100385,2023-10-26,C10275,Vikram Reddy,Telangana,P1019,A4 Paper Ream,Office Supplies,Paper,1,321.6,0.3,225.12,37.98,Credit Card,Standard,SOUTH,Consumer,2023-10-31,11526,EXACT_DUPLICATE
+ORD-2023-105941,2023-02-12,C11192,Ananya Yadav,Rajasthan,P1022,Ring Binder,Office Supplies,Binders,4,137.04,0.0,581.59,161.55,COD,Same Day,West,Consumer,2023-02-15,11597,EXACT_DUPLICATE
+ORD-2024-106613,2024-10-17,C10908,Diya Gupta,Odisha,P1029,Electric Kettle,Home & Kitchen,Appliances,2,1496.74,0.2,2394.78,167.74,UPI,Standard,East,Corporate,2024-10-21,11615,EXACT_DUPLICATE
+ORD-2023-102309,2023-10-24,C10654,Saanvi Bhadoriya,Bihar,P1008,Laptop Air 14,Technology,Computers,2,51280.69,0.1,92305.24,6928.04,Debit Card,Express,East,Consumer,2023-10-27,11627,EXACT_DUPLICATE
+ORD-2024-102026,2024-11-29,C10202,Arjun Das,Kerala,P1013,Gaming Chair,Furniture,Chairs,3,9380.6,0.0,28141.8,5762.13,Debit Card,Express,South,Consumer,2024-12-02,11651,EXACT_DUPLICATE
+ORD-2024-106039,2024-12-13,C11577,Vivaan Bhadoriya,Punjab,P1014,Office Desk,Furniture,Tables,3,8150.38,0.15,20783.47,1652.56,COD,Standard,North,Corporate,2024-12-15,11688,EXACT_DUPLICATE
+ORD-2023-108347,2023-01-20,C10238,Vikram Sharma,Rajasthan,P1034,Formal Shoes,Fashion,Footwear,1,2794.6,0.0,2794.6,1082.82,Debit Card,Standard,West,Consumer,2023-01-21,11779,EXACT_DUPLICATE
+ORD-2024-105794,2024-10-20,C10367,Diya Iyer,Maharashtra,P1010,Monitor 24in,Technology,Computers,3,12114.05,0.0,36342.15,4343.07,Credit Card,Standard,West,Corporate,2024-10-26,11807,EXACT_DUPLICATE
+ORD-2024-106097,2024-02-13,C10670,Meera Singh,Delhi,P1035,Sandals,Fashion,Footwear,1,914.54,0.3,640.18,97.93,COD,Express,North,Consumer,2024-02-17,11821,EXACT_DUPLICATE
+ORD-2023-101921,2023-10-18,C11105,Rahul Khan,Odisha,P1009,Laptop Pro 16,Technology,Computers,2,84913.13,0.05,161334.95,17312.78,Credit Card,Standard,,Consumer,2023-10-22,11828,EXACT_DUPLICATE
+ORD-2024-108433,2024-01-03,C10698,Neha Mehta,Haryana,P1033,Running Shoes,fashion,Footwear,1,3375.51,0.0,3375.51,1147.52,Credit Card,Express,North,Consumer,2024-01-06,11868,EXACT_DUPLICATE
+ORD-2024-108034,2024-07-31,C11580,Aditya Yadav,Uttar Pradesh,P1026,Stapler,Office Supplies,Art & Stationery,2,181.53,0.3,254.14,33.33,UPI,Standard,North,Corporate,2024-08-06,11974,EXACT_DUPLICATE
+ORD-2024-101763,2024-09-23,C10109,Saanvi Yadav,Assam,P1042,Football,Sports,Equipment,1,967.06,0.0,967.06,248.8,UPI,Express,East,Consumer,2024-09-28,12013,EXACT_DUPLICATE
+ORD-2023-104629,2023-10-24,C11008,Saanvi Iyer,Telangana,P1041,Dumbbell Set,Sports,Equipment,2,2916.37,0.0,5832.74,1277.12,Net Banking,Standard,South,Corporate,2023-10-30,12031,EXACT_DUPLICATE
+ORD-2023-104137,2023-06-04,C10143,Ananya Joshi,Haryana,P1019,A4 Paper Ream,Office Supplies,Paper,2,304.02,0.0,608.04,219.11,Net Banking,Standard,North,Consumer,2023-06-06,12045,EXACT_DUPLICATE
+ORD-2024-104162,2024-07-19,C11573,Neha Bhadoriya,Punjab,P1021,Notebook Pack,Office Supplies,Paper,1,244.93,0.05,232.68,63.41,Net Banking,Standard,NORTH,Home Office,2024-07-25,12067,EXACT_DUPLICATE
+ORD-2023-105857,2023-02-15,C10442,Vikram Khan,Kerala,P1005,Mech Keyboard,Technology,Accessories,1,2517.17,0.0,2517.17,323.12,UPI,Standard,South,Home Office,2023-02-20,12073,EXACT_DUPLICATE
+ORD-2024-100799,2024-09-16,C11099,Kabir Singh,Rajasthan,P1035,Sandals,Fashion,Footwear,1,944.93,0.05,897.68,262.15,UPI,Standard,West,Home Office,2024-09-20,12085,EXACT_DUPLICATE
+ORD-2023-106531,2023-05-31,C10814,Rohan Verma,Punjab,P1020,Sticky Notes,Office Supplies,Paper,1,90.39,0.1,81.35,19.2,Credit Card,Standard,North,Consumer,2023-06-06,12149,EXACT_DUPLICATE
+ORD-2023-107743,2023-02-20,C11065,Priya Chauhan,Gujarat,P1014,Office Desk,Furniture,Tables,1,7258.48,0.1,6532.63,656.05,UPI,Standard,West,Consumer,2023-02-23,12168,EXACT_DUPLICATE
+ORD-2023-103683,2023-06-01,C10625,Diya Nair,Punjab,P1017,Bookcase,Furniture,Storage,4,5239.09,0.1,18860.72,1746.6,Net Banking,Standard,North,Corporate,2023-06-07,12183,EXACT_DUPLICATE
+ORD-2024-105452,2024-10-21,C10153,Kavya Joshi,Madhya Pradesh,P1004,Wireless Mouse,Technology,Accessories,1,619.55,0.3,433.68,-6.46,Net Banking,Standard,Central,Consumer,2024-10-28,12208,EXACT_DUPLICATE
+ORD-2024-101069,2024-10-07,C10961,Vikram Nair,Tamil Nadu,P1015,Standing Desk,Furniture,Tables,1,14739.01,0.1,13265.11,932.98,UPI,Express,South,Consumer,2024-10-09,12216,EXACT_DUPLICATE
+ORD-2024-103209,2024-10-25,C10161,Neha Yadav,Maharashtra,P1021,Notebook Pack,Office Supplies,Paper,3,237.38,0.0,712.14,185.03,Debit Card,Same Day,West,Consumer,2024-10-29,12220,EXACT_DUPLICATE
+ORD-2024-104285,2024-10-18,C11513,Aditya Khan,Tamil Nadu,P1009,Laptop Pro 16,Technology,Computers,2,87725.2,0.0,175450.4,18463.17,Credit Card,Standard,South,Consumer,2024-10-22,12235,EXACT_DUPLICATE
+ORD-2023-106012,2023-07-17,C10548,Vikram Khan,Madhya Pradesh,P1034,Formal Shoes,Fashion,Footwear,1,2707.02,0.0,2707.02,865.47,COD,Express,Central,Corporate,2023-07-22,12245,EXACT_DUPLICATE
+ORD-2023-105491,2023-07-22,C10860,Vivaan Khan,Uttar Pradesh,P1023,Box File,Office Supplies,Binders,1,206.41,0.1,185.77,45.27,Credit Card,Express,North,Consumer,2023-07-28,12272,EXACT_DUPLICATE
+ORD-2024-104599,12/09/2024,C11586,Saanvi Reddy,Haryana,P1029,Electric Kettle,Home & Kitchen,Appliances,1,1585.63,0.0,1585.63,331.36,Net Banking,Same Day,North,Corporate,2024-09-14,12423,EXACT_DUPLICATE
+ORD-2024-100640,2024-05-06,C11125,Meera Joshi,Kerala,P1031,Non-stick Pan,home & kitchen,Cookware,2,1067.92,0.0,2135.84,405.04,Debit Card,Express,SOUTH,Consumer,2024-05-09,12454,EXACT_DUPLICATE
+ORD-2024-103957,2024-05-06,C10004,Diya Verma,Rajasthan,P1021,Notebook Pack,Office Supplies,Paper,3,237.94,0.15,606.75,117.17,UPI,Standard,West,Consumer,2024-05-08,12564,EXACT_DUPLICATE
+ORD-2023-104984,2023-12-02,C11125,Meera Joshi,Kerala,P1002,Smartphone Lite,Technology,Phones,1,10013.1,0.0,10013.1,1570.73,Net Banking,Standard,SOUTH,Consumer,2023-12-05,12571,EXACT_DUPLICATE
+ORD-2023-107263,2023-05-18,C10855,Kavya Das,Rajasthan,P1019,A4 Paper Ream,Office Supplies,Paper,2,311.08,0.0,622.16,190.5,UPI,Standard, West ,Home Office,2023-05-19,12577,EXACT_DUPLICATE
+ORD-2023-108585,2023-05-13,C11524,Ananya Iyer,Haryana,P1015,Standing Desk,Furniture,Tables,2,16616.6,0.15,28248.22,3357.31,UPI,Standard,North,Consumer,2023-05-20,12661,EXACT_DUPLICATE
+ORD-2024-104833,2024-01-16,C11592,Neha Chauhan,Uttar Pradesh,P1029,Electric Kettle,Home & Kitchen,Appliances,1,1542.51,0.05,1465.38,226.19,UPI,Express,North,Corporate,2024-01-20,12727,EXACT_DUPLICATE
+ORD-2023-106927,2023-01-10,C10398,Sakshi Nair,Maharashtra,P1040,Yoga Mat,Sports,Equipment,1,796.96,0.0,796.96,204.8,COD,Standard,West,Consumer,2023-01-13,12728,EXACT_DUPLICATE
+ORD-2023-106495,2023-11-09,C10258,Pooja Sharma,Uttar Pradesh,P1024,Gel Pen Box,Office Supplies,Art & Stationery,5,178.58,0.3,625.03,96.02,UPI,Express,North,Home Office,2023-11-12,12754,EXACT_DUPLICATE
+ORD-2023-105447,2023-12-14,C10675,Vivaan Reddy,Goa,P1004,Wireless Mouse,Technology,Accessories,1,620.63,0.0,620.63,74.79,Credit Card,Express,West,Consumer,2023-12-19,12767,EXACT_DUPLICATE
+ORD-2024-102565,2024-05-31,C11224,Sneha Singh,Assam,P1012,Task Chair,Furniture,Chairs,3,4528.13,0.05,12905.17,1646.6,UPI,Standard,East,Consumer,2024-06-07,12857,EXACT_DUPLICATE
+ORD-2024-105264,2024-02-24,C10346,Amit Chauhan,Haryana,P1019,A4 Paper Ream,Office Supplies,Paper,5,333.79,0.05,1585.5,332.95,UPI,Standard,North,Corporate,2024-02-28,12886,EXACT_DUPLICATE
+ORD-2024-106983,2024-07-30,C11320,Diya Das,Assam,P1009,Laptop Pro 16,Technology,Computers,1,89921.94,0.0,89921.94,7660.86,Debit Card,Express,East,Consumer,2024-08-01,12901,EXACT_DUPLICATE
+ORD-2024-107475,2024-10-18,C10022,Vivaan Chauhan,Gujarat,P1003,Phone Case Pro,Technology,Phones,2,443.14,0.0,886.28,85.21,Credit Card,Standard,West,Consumer,2024-10-21,12948,EXACT_DUPLICATE
+ORD-2023-103683,2023-06-01,C10625,Diya Nair,Punjab,P1003,Phone Case Pro,Technology,Phones,1,485.74,0.0,485.74,60.91,UPI,Standard,NORTH,Corporate,2023-06-04,12963,EXACT_DUPLICATE
+ORD-2024-102575,2024-11-01,C10142,Saanvi Chauhan,Tamil Nadu,P1017,Bookcase,Furniture,Storage,4,5303.42,0.0,21213.68,4621.33,UPI,Standard,South,Consumer,2024-11-04,12975,EXACT_DUPLICATE
+ORD-2024-104852,2024-08-29,C10428,Diya Sharma,Rajasthan,P1023,Box File,Office Supplies,Binders,1,204.52,0.2,163.62,32.77,Debit Card,Standard,West,Consumer,2024-08-31,12988,EXACT_DUPLICATE
+ORD-2023-101920,2023-02-20,C11441,Kabir Sharma,Assam,P1029,Electric Kettle,Home & Kitchen,Appliances,1,1568.38,0.0,1568.38,268.5,Debit Card,Standard,East,Corporate,2023-02-22,13008,EXACT_DUPLICATE
+ORD-2024-106800,2024-05-30,C11109,Ishaan Singh,Karnataka,P1010,Monitor 24in,Technology,Computers,2,11871.38,0.0,23742.76,3735.77,Debit Card,Express,South,Corporate,2024-06-01,13029,EXACT_DUPLICATE
+ORD-2023-103558,2023-07-16,C10887,Sneha Verma,Kerala,P1017,Bookcase,Furniture,Storage,5,5541.99,0.2,22167.96,853.22,COD,Standard,South,Corporate,2023-07-18,13067,EXACT_DUPLICATE
+ORD-2024-104861,2024-05-23,C10269,Meera Sharma,Telangana,P1010,Monitor 24in,Technology,Computers,-1,11495.29,0.0,-11495.29,-951.06,Credit Card,Same Day,South,Corporate,2024-05-25,13075,EXACT_DUPLICATE
+ORD-2024-104752,2024-03-06,C11196,Neha Gupta,Goa,P1027,Air Fryer,Home & Kitchen,Appliances,1,5922.81,0.0,5922.81,1098.14,Credit Card,Standard,West,Consumer,2024-03-11,13091,EXACT_DUPLICATE
+ORD-2023-108792,"Dec 11, 2023",C11227,Vikram Das,Maharashtra,P1037,Denim Jeans,fashion,Apparel,2,1817.57,0.2,2908.11,630.81,Net Banking,Standard,West,Consumer,2023-12-15,13127,EXACT_DUPLICATE
+ORD-2023-104886,2023-04-20,C10624,Kavya Chauhan,Karnataka,P1027,Air Fryer,Home & Kitchen,Appliances,1,6464.5,0.2,5171.6,354.55,UPI,Same Day,South,Consumer,2023-04-21,13136,EXACT_DUPLICATE
+ORD-2024-104768,2024-01-19,C10594,Kabir Sharma,West Bengal,P1011,Ergo Chair,Furniture,Chairs,1,8108.04,0.0,8108.04,1468.97,Credit Card,Standard,East,Consumer,2024-01-22,13241,EXACT_DUPLICATE
+ORD-2024-106801,2024-08-30,C10604,Ishaan Chauhan,Uttar Pradesh,P1005,Mech Keyboard,Technology,Accessories,1,2360.59,0.0,2360.59,364.32,UPI,Standard,North,Corporate,2024-09-05,13271,EXACT_DUPLICATE
+ORD-2023-103724,2023-12-28,C11508,Meera Gupta,West Bengal,P1004,Wireless Mouse,Technology,Accessories,1,645.75,0.0,645.75,76.36,UPI,Standard,East,Corporate,2024-01-01,13382,EXACT_DUPLICATE
+ORD-2023-104525,2023-09-16,C10259,Arjun Joshi,Haryana,P1040,Yoga Mat,Sports,Equipment,1,836.15,0.05,794.34,158.24,Credit Card,Standard,North,Consumer,2023-09-18,13388,EXACT_DUPLICATE
+ORD-2023-106562,2023-05-27,C11450,Meera Bhadoriya,Kerala,P1023,Box File,Office Supplies,Binders,2,220.69,0.0,441.38,143.72,Credit Card,Same Day,South,Consumer,2023-05-30,13443,EXACT_DUPLICATE
+ORD-2024-101944,2024-02-28,C11573,Neha Bhadoriya,Punjab,P1034,Formal Shoes,Fashion,Footwear,2,2792.06,0.15,4746.5,1265.41,Debit Card,Express,North,Home Office,2024-02-29,13445,EXACT_DUPLICATE
+ORD-2024-106122,2024-03-31,C10395,Vivaan Nair,Odisha,P1001,Smartphone X1,Technology,Phones,3,17351.92,0.0,52055.76,6002.23,Credit Card,Same Day,East,Consumer,2024-04-02,13549,EXACT_DUPLICATE
+ORD-2024-105911,2024-12-30,C11350,Pooja Khan,Uttar Pradesh,P1041,Dumbbell Set,Sports,Equipment,2,2906.56,0.0,5813.12,1150.99,Debit Card,Same Day,North,Home Office,2025-01-01,13594,EXACT_DUPLICATE
+ORD-2024-104073,2024-02-15,C10751,Diya Patel,Odisha,P1008,Laptop Air 14,Technology,Computers,1,50690.98,0.0,50690.98,6363.18,COD,Standard,East,Consumer,2024-02-21,13620,EXACT_DUPLICATE
+ORD-2024-100780,2024-06-25,C11371,Meera Chauhan,Chhattisgarh,P1008,Laptop Air 14,Technology,Computers,3,54162.41,0.0,162487.23,18764.79,UPI,Standard,CENTRAL,Home Office,2024-07-01,13651,EXACT_DUPLICATE
+ORD-2024-101204,2024-10-28,C11294,Sakshi Reddy,Gujarat,P1018,File Cabinet,Furniture,Storage,2,3554.84,0.0,7109.68,1244.69,Debit Card,Same Day,West,Corporate,2024-11-02,13661,EXACT_DUPLICATE
+ORD-2023-102564,2023-11-04,C11283,Vikram Mehta,Telangana,P1004,Wireless Mouse,Technology,Accessories,3,636.26,0.2,1494.7,56.98,Credit Card,Standard,South,Consumer,2023-11-06,13691,EXACT_DUPLICATE
+ORD-2024-106214,2024-01-10,C10513,Vivaan Patel,Maharashtra,P1018,File Cabinet,Furniture,Storage,3,3569.16,0.1,9636.73,1126.59,UPI,Standard,West,Consumer,2024-01-13,13865,EXACT_DUPLICATE
+ORD-2023-100591,2023-04-27,C11021,Priya Khan,Tamil Nadu,P1009,Laptop Pro 16,Technology,Computers,1,90659.2,0.05,86126.24,9109.95,Credit Card,Express,South,Corporate,2023-05-03,13967,EXACT_DUPLICATE
+ORD-2023-107923,2023-07-11,C10325,Arjun Mehta,Gujarat,P1009,Laptop Pro 16,Technology,Computers,1,84784.03,0.0,84784.03,8047.89,UPI,Standard,West,Corporate,2023-07-17,13973,EXACT_DUPLICATE
+ORD-2024-102521,2024-03-20,C10961,Vikram Nair,Tamil Nadu,P1017,Bookcase,Furniture,Storage,-1,5134.18,0.15,-4364.05,-450.59,UPI,Express,South,Consumer,2024-03-24,14038,EXACT_DUPLICATE
+ORD-2024-102460,2024-05-11,C10822,Aditya Patel,Gujarat,P1015,Standing Desk,Furniture,Tables,2,14805.0,0.15,25168.5,1911.22,Debit Card,Standard,West,Corporate,2024-05-16,14054,EXACT_DUPLICATE
+ORD-2023-106978,2023-08-26,C11430,Ananya Yadav,Telangana,P1005,Mech Keyboard,Technology,Accessories,1,2453.98,0.3,1717.79,-163.69,Net Banking,Standard,South,Consumer,2023-09-01,14177,EXACT_DUPLICATE
+ORD-2024-104566,2024-11-08,C10977,Sakshi Nair,Goa,P1007,Bluetooth Speaker,Technology,Accessories,1,2332.92,0.15,1982.98,33.34,UPI,Express,West,Consumer,2024-11-12,14209,EXACT_DUPLICATE
+ORD-2023-106297,2023-08-07,C10525,Meera Reddy,Odisha,P1021,Notebook Pack,Office Supplies,Paper,4,229.05,0.3,641.34,110.78,Credit Card,Express,East,Corporate,2023-08-13,14216,EXACT_DUPLICATE
+ORD-2023-106080,2023-11-17,C11418,Sakshi Yadav,Maharashtra,P1026,Stapler,Office Supplies,Art & Stationery,4,174.33,0.0,697.32,197.28,UPI,Standard,West,Consumer,2023-11-19,14258,EXACT_DUPLICATE
+ORD-2023-106324,2023-06-12,C10727,Kabir Sharma,Uttar Pradesh,P1038,Winter Jacket,Fashion,Apparel,4,3670.85,0.0,14683.4,6035.64,Debit Card,Express,,Consumer,2023-06-14,14262,EXACT_DUPLICATE
+ORD-2023-108381,2023-08-17,C10463,Meera Patel,Uttar Pradesh,P1013,Gaming Chair,Furniture,Chairs,2,10175.02,0.15,17297.53,1041.58,Net Banking,Express,NORTH,Home Office,2023-08-23,14358,EXACT_DUPLICATE
+ORD-2023-101071,2023-10-01,C10716,Ananya Joshi,Punjab,P1032,Pressure Cooker,Home & Kitchen,Cookware,1,2041.11,0.0,2041.11,363.23,Credit Card,Same Day,NORTH,Consumer,2023-10-02,14390,EXACT_DUPLICATE
+ORD-2024-108041,2024-07-21,,Kavya Yadav,Madhya Pradesh,P1008,Laptop Air 14,Technology,Computers,1,52307.83,0.15,44461.66,-120.5,UPI,Express,Central,Consumer,2024-07-27,14461,EXACT_DUPLICATE
+ORD-2024-107798,2024-04-13,C11448,Rahul Mehta,Haryana,P1031,Non-stick Pan,Home & Kitchen,Cookware,1,1177.04,0.0,1177.04,242.88,COD,Same Day,North,Consumer,2024-04-18,14462,EXACT_DUPLICATE
+ORD-2024-102351,2024-04-16,C10819,Ananya Patel,Karnataka,P1038,Winter Jacket,Fashion,Apparel,2,3807.47,0.15,6472.7,1571.55,Credit Card,Express,South,Corporate,2024-04-17,14464,EXACT_DUPLICATE
+ORD-2023-102176,2023-06-21,C11313,Sakshi Sharma,Gujarat,P1001,Smartphone X1,Technology,Phones,5,17721.63,0.0,88608.15,10078.5,COD,Express,,Corporate,2023-06-25,14488,EXACT_DUPLICATE
+ORD-2024-108610,2024-09-01,C10115,Arjun Bhadoriya,Rajasthan,P1003,Phone Case Pro,Technology,Phones,2,431.82,0.0,863.64,136.99,UPI,Standard,West,Consumer,2024-09-04,14557,EXACT_DUPLICATE
+ORD-2024-107461,2024-11-26,C10129,Ananya Joshi,Bihar,P1036,Cotton T-Shirt,Fashion,Apparel,1,612.2,0.1,550.98,169.71,Credit Card,Standard,East,Home Office,2024-11-29,14577,EXACT_DUPLICATE
+ORD-2023-104161,2023-02-02,C10632,Diya Sharma,Haryana,P1015,Standing Desk,Furniture,Tables,1,15978.73,0.05,15179.79,2252.35,Credit Card,Same Day,North,Consumer,2023-02-04,14590,EXACT_DUPLICATE
+ORD-2023-102265,2023-12-24,C10687,Pooja Chauhan,Kerala,P1032,Pressure Cooker,Home & Kitchen,Cookware,1,2050.33,0.3,1435.23,81.9,UPI,Express,South,Consumer,2023-12-27,14604,EXACT_DUPLICATE
+ORD-2023-100289,2023-03-14,C10187,Pooja Verma,Punjab,P1004,Wireless Mouse,Technology,Accessories,1,668.43,0.05,635.01,79.04,Debit Card,Standard,North,Consumer,2023-03-18,14607,EXACT_DUPLICATE
+ORD-2023-107434,2023-01-04,C10870,Saanvi Khan,Madhya Pradesh,P1023,Box File,Office Supplies,Binders,1,209.9,0.3,146.93,17.87,Net Banking,Express,Central,Consumer,2023-01-09,14614,EXACT_DUPLICATE
+ORD-2024-107846,2024-11-29,C10194,Pooja Singh,Karnataka,P1004,Wireless Mouse,Technology,Accessories,2,646.28,0.3,904.79,-13.67,UPI,Standard,South,Consumer,2024-12-04,14619,EXACT_DUPLICATE
+ORD-2024-101111,2024-10-13,C10929,Meera Khan,Haryana,P1001,Smartphone X1,Technology,Phones,2,17450.04,0.0,34900.08,3796.08,Debit Card,Standard,North,Consumer,2024-10-15,14673,EXACT_DUPLICATE
+ORD-2024-104120,2024-07-14,C10536,Sneha Das,Karnataka,P1034,Formal Shoes,Fashion,Footwear,1,2846.82,0.15,2419.8,457.24,COD,Express,South,Corporate,2024-07-17,14686,EXACT_DUPLICATE
+ORD-2023-107817,2023-11-13,C10594,Kabir Sharma,West Bengal,P1012,Task Chair,Furniture,Chairs,5,4405.36,0.0,22026.8,2959.24,Debit Card,Same Day,East,Consumer,2023-11-20,14737,EXACT_DUPLICATE
+ORD-2023-108450,2023-09-17,C10943,Rahul Nair,Uttar Pradesh,P1015,Standing Desk,Furniture,Tables,1,15255.43,0.0,15255.43,2995.76,COD,Express,North,Home Office,2023-09-20,14758,EXACT_DUPLICATE
+ORD-2024-105314,2024-11-21,C10779,Sakshi Bhadoriya,Telangana,P1021,Notebook Pack,Office Supplies,Paper,3,230.47,0.0,691.41,211.64,Debit Card,Standard,South,Corporate,2024-11-26,14768,EXACT_DUPLICATE
+ORD-2023-107241,2023-11-21,C10970,Ananya Gupta,Goa,P1015,Standing Desk,Furniture,Tables,3,16421.59,0.05,46801.53,3515.48,UPI,Express,West,Corporate,2023-11-24,14842,EXACT_DUPLICATE
+ORD-2024-102636,2024-11-17,C11097,Rahul Bhadoriya,Gujarat,P1012,Task Chair,Furniture,Chairs,1,4395.44,0.0,4395.44,565.39,COD,Express,WEST,Corporate,2024-11-21,14856,EXACT_DUPLICATE
+ORD-2024-102307,2024-09-28,C11070,Priya Yadav,Kerala,P1013,Gaming Chair,Furniture,Chairs,2,9458.74,0.2,15133.98,758.43,Debit Card,Standard,South,Consumer,2024-10-05,14859,EXACT_DUPLICATE
+ORD-2024-104859,2024-04-25,C10524,Rahul Verma,Delhi,P1028,Mixer Grinder,Home & Kitchen,Appliances,4,3884.14,0.0,15536.56,2445.93,UPI,Express,North,Corporate,2024-04-29,14878,EXACT_DUPLICATE
+ORD-2024-108287,2024-11-04,C10944,Vivaan Nair,Telangana,P1004,Wireless Mouse,Technology,Accessories,1,663.9,0.05,630.7,69.49,COD,Standard,South,Consumer,2024-11-08,14899,EXACT_DUPLICATE
+ORD-2023-108985,2023-09-20,C11417,Rohan Joshi,Karnataka,P1018,File Cabinet,Furniture,Storage,5,3507.37,0.0,17536.85,2300.02,UPI,Express,South,Home Office,2023-09-23,14910,EXACT_DUPLICATE
+ORD-2023-102855,2023-03-09,C10069,Kavya Nair,Tamil Nadu,P1022,Ring Binder,Office Supplies,Binders,1,143.72,0.05,136.53,36.02,Credit Card,Standard,South,Consumer,2023-03-12,14949,EXACT_DUPLICATE
+ORD-2023-107464,2023-10-17,C10182,Aditya Das,Uttar Pradesh,P1028,Mixer Grinder,Home & Kitchen,Appliances,2,3632.55,0.0,7265.1,1731.87,Credit Card,Standard,North,Corporate,2023-10-18,14978,EXACT_DUPLICATE
+ORD-2023-107811,2023-07-20,C10444,Aarav Patel,Haryana,P1001,Smartphone X1,Technology,Phones,1,18933.07,0.1,17039.76,1357.49,UPI,Standard,North,Consumer,2023-07-22,15001,EXACT_DUPLICATE
+ORD-2023-108487,2023-03-13,C11162,Priya Bhadoriya,Goa,P1012,Task Chair,Furniture,Chairs,1,4304.67,0.0,4304.67,799.52,UPI,Standard,West,Consumer,2023-03-14,15015,EXACT_DUPLICATE
+ORD-2023-107603,2023-08-10,C10880,Rohan Nair,Assam,P1001,Smartphone X1,Technology,Phones,2,19227.43,0.0,38454.86,4182.5,UPI,Standard,East,Consumer,2023-08-13,15062,EXACT_DUPLICATE
+ORD-2023-103693,2023-03-12,C11488,Arjun Yadav,Madhya Pradesh,P1007,Bluetooth Speaker,Technology,Accessories,3,2264.15,0.0,6792.45,983.29,Debit Card,Express,Central,Consumer,2023-03-14,15072,EXACT_DUPLICATE
+ORD-2023-106341,2023-12-18,C10252,Ishaan Nair,Rajasthan,P1037,Denim Jeans,Fashion,Apparel,3,1895.34,0.0,5686.02,1846.19,UPI,Standard,West,Consumer,2023-12-23,15094,EXACT_DUPLICATE
+ORD-2023-103548,2023-10-27,C10960,Rohan Joshi,Karnataka,P1035,Sandals,Fashion,Footwear,3,945.9,0.2,2270.16,515.79,UPI,Standard,South,Consumer,2023-10-29,15156,EXACT_DUPLICATE
+ORD-2024-102495,2024-10-14,C11457,Saanvi Nair,Kerala,P1023,Box File,Office Supplies,Binders,5,217.94,0.0,1089.7,314.09,Debit Card,Express,South,Corporate,2024-10-18,15248,EXACT_DUPLICATE
+ORD-2024-105339,2024-11-14,C10337,Neha Iyer,Telangana,P1028,Mixer Grinder,Home & Kitchen,Appliances,2,3743.4,0.3,5240.76,107.89,COD,Standard,South,Consumer,2024-11-18,15293,EXACT_DUPLICATE
+ORD-2024-107738,22/06/2024,C11503,Kabir Nair,West Bengal,P1019,A4 Paper Ream,Office Supplies,Paper,2,334.84,0.0,669.68,192.67,Credit Card,Standard,East,Corporate,2024-06-24,15376,EXACT_DUPLICATE
+ORD-2024-108378,2024-12-14,C11166,Ishaan Bhadoriya,Goa,P1015,Standing Desk,Furniture,Tables,1,15370.07,0.0,15370.07,2609.84,COD,Standard, West ,Consumer,2024-12-19,15395,EXACT_DUPLICATE
+ORD-2024-105179,2024-01-08,C10997,Sneha Sharma,Uttar Pradesh,P1002,Smartphone Lite,Technology,Phones,1,9677.45,0.15,8225.83,196.86,UPI,Standard,NORTH,Consumer,2024-01-13,15401,EXACT_DUPLICATE
+ORD-2023-104770,2023-07-20,C10128,Rahul Verma,Rajasthan,P1012,Task Chair,Furniture,Chairs,1,4300.38,0.0,4300.38,632.08,UPI,Express,West,Corporate,2023-07-22,15417,EXACT_DUPLICATE
+ORD-2023-106497,2023-04-09,C10478,Saanvi Mehta,Telangana,P1004,Wireless Mouse,Technology,Accessories,4,682.05,0.1,2455.38,193.0,Debit Card,Express,South,Corporate,2023-04-11,15418,EXACT_DUPLICATE
+ORD-2023-107886,2023-10-16,C11205,Meera Sharma,Delhi,P1002,Smartphone Lite,Technology,Phones,5,9550.66,0.1,42977.97,3635.01,UPI,Same Day,North,Consumer,2023-10-19,15548,EXACT_DUPLICATE
+ORD-2023-104690,2023-09-18,C11279,Aarav Joshi,Delhi,P1028,Mixer Grinder,Home & Kitchen,Appliances,1,3964.97,0.0,3964.97,932.59,COD,Same Day,North,Corporate,2023-09-24,15566,EXACT_DUPLICATE
+ORD-2024-108191,2024-10-15,C11569,Arjun Das,Punjab,P1033,Running Shoes,Fashion,Footwear,1,3415.51,0.05,3244.73,983.59,Credit Card,Express,North,Home Office,2024-10-16,15570,EXACT_DUPLICATE

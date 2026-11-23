@@ -1,0 +1,29 @@
+{
+  "raw_rows": 15610,
+  "raw_total_sales": 245741745.95,
+  "null_counts_before": {
+    "customer_id": 188,
+    "product_name": 92,
+    "discount": 124,
+    "region": 236
+  },
+  "negative_sales_rows": 95,
+  "R1_exact_duplicates_removed": 276,
+  "R2_region_case_or_space_fixed": 756,
+  "R3_region_nulls_recovered_from_state": 230,
+  "R3_region_still_unknown": 0,
+  "R4_product_name_recovered": 92,
+  "R5_multi_format_dates_standardised": 967,
+  "R5_invalid_dates_rejected": 61,
+  "R6_negative_amount_rejected": 92,
+  "R7_discount_nulls_filled": 122,
+  "R7_of_which_default_zero": 0,
+  "R8_sales_total_mismatch_corrected": 143,
+  "R8_sales_adjustment_value": -2286.33,
+  "R9_customer_id_null_flagged": 179,
+  "R10_bulk_order_outliers_flagged_kept": 23,
+  "clean_rows": 15181,
+  "clean_total_sales": 241053486.78,
+  "reconciliation_diff_vs_clean": 0.0,
+  "null_counts_after": {}
+}

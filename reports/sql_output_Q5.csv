@@ -1,0 +1,15 @@
+category,sub_category,total_sales,pct_of_category
+Fashion,Footwear,3277291.68,54.99
+Fashion,Apparel,2682914.67,45.01
+Furniture,Tables,20211729.46,45.31
+Furniture,Chairs,17827703.67,39.96
+Furniture,Storage,6570032.43,14.73
+Home & Kitchen,Appliances,12222375.54,89.87
+Home & Kitchen,Cookware,1377015.77,10.13
+Office Supplies,Paper,451396.0,41.26
+Office Supplies,Art & Stationery,384736.91,35.16
+Office Supplies,Binders,257963.86,23.58
+Sports,Equipment,2672047.49,100.0
+Technology,Computers,139181189.75,80.4
+Technology,Phones,27121530.35,15.67
+Technology,Accessories,6815559.2,3.94

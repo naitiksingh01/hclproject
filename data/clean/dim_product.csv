@@ -1,0 +1,43 @@
+product_id,product_name,category,sub_category,list_price
+P1001,Smartphone X1,Technology,Phones,18167.02
+P1002,Smartphone Lite,Technology,Phones,9662.79
+P1003,Phone Case Pro,Technology,Phones,458.03
+P1004,Wireless Mouse,Technology,Accessories,656.69
+P1005,Mech Keyboard,Technology,Accessories,2445.38
+P1006,USB-C Hub,Technology,Accessories,1320.03
+P1007,Bluetooth Speaker,Technology,Accessories,2239.25
+P1008,Laptop Air 14,Technology,Computers,52528.43
+P1009,Laptop Pro 16,Technology,Computers,90108.89
+P1010,Monitor 24in,Technology,Computers,11688.33
+P1011,Ergo Chair,Furniture,Chairs,8367.36
+P1012,Task Chair,Furniture,Chairs,4372.65
+P1013,Gaming Chair,Furniture,Chairs,9944.3
+P1014,Office Desk,Furniture,Tables,7737.78
+P1015,Standing Desk,Furniture,Tables,15720.32
+P1016,Coffee Table,Furniture,Tables,3972.19
+P1017,Bookcase,Furniture,Storage,5316.2
+P1018,File Cabinet,Furniture,Storage,3671.6
+P1019,A4 Paper Ream,Office Supplies,Paper,325.41
+P1020,Sticky Notes,Office Supplies,Paper,91.09
+P1021,Notebook Pack,Office Supplies,Paper,243.97
+P1022,Ring Binder,Office Supplies,Binders,141.61
+P1023,Box File,Office Supplies,Binders,212.96
+P1024,Gel Pen Box,Office Supplies,Art & Stationery,182.79
+P1025,Marker Set,Office Supplies,Art & Stationery,264.53
+P1026,Stapler,Office Supplies,Art & Stationery,172.98
+P1027,Air Fryer,Home & Kitchen,Appliances,6293.67
+P1028,Mixer Grinder,Home & Kitchen,Appliances,3828.44
+P1029,Electric Kettle,Home & Kitchen,Appliances,1517.72
+P1030,Microwave Oven,Home & Kitchen,Appliances,9990.6
+P1031,Non-stick Pan,Home & Kitchen,Cookware,1114.68
+P1032,Pressure Cooker,Home & Kitchen,Cookware,2145.62
+P1033,Running Shoes,Fashion,Footwear,3249.58
+P1034,Formal Shoes,Fashion,Footwear,2827.42
+P1035,Sandals,Fashion,Footwear,919.4
+P1036,Cotton T-Shirt,Fashion,Apparel,608.32
+P1037,Denim Jeans,Fashion,Apparel,1840.57
+P1038,Winter Jacket,Fashion,Apparel,3645.95
+P1039,Cricket Bat,Sports,Equipment,2644.53
+P1040,Yoga Mat,Sports,Equipment,816.98
+P1041,Dumbbell Set,Sports,Equipment,2928.38
+P1042,Football,Sports,Equipment,965.37

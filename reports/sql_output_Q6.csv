@@ -1,0 +1,19 @@
+category,product_name,total_sales,rank_in_category
+Fashion,Winter Jacket,1606670.71,1
+Fashion,Formal Shoes,1456876.09,2
+Fashion,Running Shoes,1353832.68,3
+Furniture,Standing Desk,11140101.84,1
+Furniture,Gaming Chair,7410258.17,2
+Furniture,Ergo Chair,6955438.71,3
+Home & Kitchen,Microwave Oven,5102931.13,1
+Home & Kitchen,Air Fryer,3978881.42,2
+Home & Kitchen,Mixer Grinder,2166136.64,3
+Office Supplies,A4 Paper Ream,197175.77,1
+Office Supplies,Notebook Pack,173781.38,2
+Office Supplies,Box File,154843.01,3
+Sports,Dumbbell Set,1070322.78,1
+Sports,Cricket Bat,938831.08,2
+Sports,Yoga Mat,374238.95,3
+Technology,Laptop Pro 16,78479572.17,1
+Technology,Laptop Air 14,50441484.37,2
+Technology,Smartphone X1,18307648.37,3

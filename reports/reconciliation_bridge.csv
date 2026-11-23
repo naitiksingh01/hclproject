@@ -1,0 +1,7 @@
+step,amount
+Raw file total (as received),245741745.95
+less: exact duplicate rows,-5031256.15
+less: invalid-date rows,-672623.08
+less: negative/refund rows,1016308.76
+adjust: sales recomputed (qty x price x (1-disc)),-688.7
+Clean total (= sum of steps),241053486.78
